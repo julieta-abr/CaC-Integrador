@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="logotipo" src="Logo.png" alt="logo"> CONF BS.AS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lugar y fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Convertite en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html#comprar-tickets">Tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="banner-img">
+    <div class="container-all">
+      <div class="banner-text">
+        <h1>CONF BS.AS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Odit voluptate consequatur corporis vel quibusdam
+          ex
+          cumque.<br> Fugiat explicabo eligendi delectus ad iste officia asperiores cumque.<br> Natus impedit optio vitae
+          aut.</p>
+        <div class="d-grid gap-2 d-md-block">
+          <a class="btn btn-outline-secondary btn-lg" href="#ser-orador" role="button">Quiero ser orador</a>
+          <a class="btn btn-success btn-lg" href="#comprar-tickets" role="button">Comprar tickets</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="oradores">
+    <h5>CONOCÉ A LOS</h5>
+    <h1>ORADORES</h1>
+  </div>
+
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/steve.jpg" alt="Steve Jobs" class="card-img-top">
+          <div class="card-body">
+            <div class="tags">
+              <h6 class="yellow">JavaScript</h6>
+              <h6 class="cyan">React</h6>
+            </div>
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quae velit,
+              quidem ducimus excepturi pariatur dolore, iusto deserunt, autem dignissimos nemo sequi incidunt
+              aspernatur magnam odio modi quisquam alias veritatis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/bill.jpg" alt="Bill Gates" class="card-img-top">
+          <div class="card-body">
+            <div class="tags">
+              <h6 class="yellow">JavaScript</h6>
+              <h6 class="cyan">React</h6>
+            </div>
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quae velit,
+              quidem ducimus excepturi pariatur dolore, iusto deserunt, autem dignissimos nemo sequi incidunt
+              aspernatur magnam odio modi quisquam alias veritatis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/ada.jpeg" alt="Ada Lovelace" class="card-img-top">
+          <div class="card-body">
+            <div class="tags">
+              <h6 class="grey">Negocios</h6>
+              <h6 class="magenta">Startups</h6>
+            </div>
+            <h5 class="card-title">Ada Lovelace</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quae velit,
+              quidem ducimus excepturi pariatur dolore, iusto deserunt, autem dignissimos nemo sequi incidunt
+              aspernatur magnam odio modi quisquam alias veritatis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-img">
+    <img src="img/honolulu.jpg" alt="imagen de una playa">
+    <div class="texto">
+      <h1>BS.AS - OCTUBRE</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates vel nisi sed sapiente, accusantium
+          ratione. Odio saepe cum similique nesciunt corrupti maiores sapiente ratione suscipit, repellat deserunt
+          doloremque earum.</p>
+      <button type="button" class="btn btn-outline-light">Conocé más</button>
+    </div>
+  </div>
+
+  <div class="oradores" id="ser-orador">
+    <h5>CONVIERTETE EN</h5>
+    <h1>ORADOR</h1>
+    <h5>Anotate como orador para dar una charla ignite. ¡Contanos sobre qué querés hablar!</h5>
+  </div>
+
+  <div class="container mt-5 pb-4">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+      </div>
+      <div class="comentario">
+        <textarea class="form-control" placeholder="¿Sobre qué querés hablar?" id="floatingTextarea"></textarea>
+      </div>
+      <div id="comment" class="form-text">Recordá incluir un título para tu charla.</div>
+      <div class="d-grid gap-2">
+        <button class="btn btn-success" type="button">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+
+  <section class="container-section" id="comprar-tickets">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <div class="row row-cols-1 row-cols-md-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-black bg-transparent border-primary">
+                            <h4 class="my-0 fw-normal">Estudiante</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Tienen un descuento</p>
+                            <h3 class="card-title pricing-card-title">80%</h3>
+                            <small class="fw-light text-muted mt-3">*Presentar documentación</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-info">
+                        <div class="card-header py-3 text-black bg-transparent border-info">
+                            <h4 class="my-0 fw-normal">Trainee</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Tienen un descuento</p>
+                            <h3 class="card-title pricing-card-title">50%</h3>
+                            <small class="fw-light text-muted mt-3">*Presentar documentación</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-warning">
+                        <div class="card-header py-3 text-black bg-transparent border-warning">
+                            <h4 class="my-0 fw-normal">Junior</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Tienen un descuento</p>
+                            <h3 class="card-title pricing-card-title">15%</h3>
+                            <small class="fw-light text-muted mt-3">*Presentar documentación</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="venta-t">Venta <span>Valor de ticket $200</span></h2>
+            
+            <form action="">
+                <div class="row gx-2">
+                    <div class="col-md mb-3">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre" required>
+                    </div>
+                    <div class="col-md mb-3">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-3">
+                        <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="mail" required>
+                    </div>
+                </div>
+                <div class="row gx-2">
+                    <div class="col-md mb-3">
+                        <label for="cantidadTickets" class="form-label">Cantidad</label>
+                        <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="cantidadTickets" min="1" required>
+                    </div>
+                    <div class="col-md mb-3">
+                        <label for="categoriaSelect" class="form-label">Categoría</label>
+                        <select class="form-select" aria-label="Categoría" id="categoriaSelect">
+                            <option value="" selected></option>
+                            <option value="Estudiante">Estudiante</option>
+                            <option value="Trainee">Trainee</option>
+                            <option value="Junior">Junior</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="alert alert-primary mt-2 mb-4" role="alert">
+                    Total a pagar: $ <span id="totalPago" class="align-middle"></span>
+                </div>
+                <div class="row gx-2">
+                    <div class="col-md mb-3">
+                        <button type="reset" class="w-100 btn btn-lg btn-form btn-success" onclick="reestablecerValor()" id="botonBorrar">Borrar</button>
+                    </div>
+                    <div class="col-md mb-3">
+                        <button type="button" class="w-100 btn btn-lg btn-form btn-success" onclick="resumen()" id="botonResumen">Resumen</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="container-footer">
+        <a class="footer-item" href="#">Preguntas frecuentes</a>
+        <a class="footer-item" href="#">Contactanos</a>
+        <a class="footer-item" href="#">Prensa</a>
+        <a class="footer-item" href="#">Conferencias</a>
+        <a class="footer-item" href="#">Términos y condiciones</a>
+        <a class="footer-item" href="#">Privacidad</a>
+        <a class="footer-item" href="#">Estudiantes</a>
+    </div>
+  </footer>
+
+
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
